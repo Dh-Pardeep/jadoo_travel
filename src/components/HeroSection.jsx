@@ -21,7 +21,7 @@ function HeroSection() {
                                         <div class="play-button"></div>
                                     </div>
                                     <div className='ps-4'>
-                                        <a className=' ff_poppins fw-medium fs_17 fst-normal color_D77 ' href="PlayDemo">Play Demo</a>
+                                        <a className=' ff_poppins fw-medium fs_17 fst-normal color_D77 down_line position-relative' href="PlayDemo">Play Demo</a>
                                     </div>
                                 </div>
                             </div>
