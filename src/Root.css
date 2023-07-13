@@ -87,8 +87,9 @@
 .color_809 {
     color: var(--color-809) !important;
 }
-.color_29A{
-    color: var( --color-29A) !important;
+
+.color_29A {
+    color: var(--color-29A) !important;
 }
 
 
@@ -220,12 +221,18 @@
             --font-size-xl: 50px;
             --font-size-xlg: 33px;
             --font-size-lg: 21px;
-            --font-size-xmd: 20px;
+            --font-size-xmd: 17px;
             --font-size-md: 18px;
             --font-size-vmd: 17px;
             --font-size-xsm: 16px;
             --font-size-sm: 14px;
             --font-size-vs: 13px;
         }
+    }
+
+    @media (min-width: 1400px) {
+      :root{
+        --font-size-xmd: 20px;
+      }
     }
 }

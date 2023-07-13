@@ -478,12 +478,14 @@
     top: 0;
     right: 0;
     opacity: 0.1;
+    width: 120px;
 }
 
 .Circel1 {
     opacity: 0.1;
-    bottom: -55px;
+    bottom: 0;
     left: 20px;
+    width: 200px;
 }
 
 .para_9 {
@@ -509,6 +511,7 @@
 
 }
 
+
 .Social_p {
     padding-top: 13px;
     padding-bottom: 13px;
@@ -519,30 +522,17 @@
     margin-bottom: 13px;
 }
 
-.email_full_box {
-    animation: email_spin 20s linear infinite;
-}
-
-@keyframes email_spin {
-    0% {
-        background-color: #F9F7FE;
-    }
-
-    25% {
-        background-color: #cfc5e4;
-    }
-
-    50% {
-        background-color: #a49eb5;
-    }
-
-    100% {
-        background-color: #F9F7FE;
-    }
+.w_92px {
+    width: 92px;
 }
 
 .plane_1 {
     animation: plane_11 4s linear infinite;
+}
+
+.BestFlights {
+    width: 92px;
+    height: 78px;
 }
 
 @keyframes plane_11 {
@@ -589,12 +579,22 @@
     bottom: 40px !important;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
 .EamilBackPicDoct {
     bottom: -102px;
     right: -130px;
     position: absolute;
     width: 200px;
     z-index: -1;
+}
+
+.z_9999999 {
+    z-index: 99;
 }
 
 @media (max-width:576px) {
@@ -767,6 +767,14 @@
     .SendArrow {
         width: 60px !important;
     }
+
+    .Circel2 {
+        width: 150px;
+    }
+
+    .Circel1 {
+        width: 200px;
+    }
 }
 
 @media (min-width:992px) {
@@ -851,6 +859,14 @@
 
     .SendArrow {
         width: 70px !important;
+    }
+
+    .Circel2 {
+        width: unset;
+    }
+
+    .Circel1 {
+        width: unset;
     }
 }
 

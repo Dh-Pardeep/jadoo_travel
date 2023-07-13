@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import Miketaylor from '../assets/img/svg/Miketaylor.svg'
+import { Container } from "react-bootstrap";
 export default function SimpleSlider() {
     var settings = {
         dots: true,
@@ -13,11 +14,11 @@ export default function SimpleSlider() {
         pauseOnHover: true,
         autoplaySpeed: 2000,
         autoplay: true,
- 
+
 
     };
     return (
-        <div className="container py-5">
+        <Container>
             <Slider {...settings} className="mb-xl-5">
                 <div className="c_pointer" data-aos="fade-down">
                     <div className="row py-5 my-5 align-items-center">
@@ -71,13 +72,6 @@ export default function SimpleSlider() {
                     </div>
                 </div>
             </Slider>
-
-            {/* <div className=" c_pointer">
-                <img className="leftA rightArrow" src={leftArrow} alt="leftArrow" />
-            </div>
-            <div className=" c_pointer">
-                <img className="rightA leftArrow" src={leftArrow} alt="rightArrow" />
-            </div> */}
-        </div>
+        </Container>
     );
 }

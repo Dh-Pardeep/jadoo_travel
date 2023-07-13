@@ -5,6 +5,7 @@ import Jetstar from '../assets/img/png/Jetstar.png'
 import Expida from '../assets/img/png/Expida.png'
 import Qantas from '../assets/img/png/qantas.png'
 import Alitali from '../assets/img/png/alitali.png'
+import { Container } from "react-bootstrap";
 export default function SimpleSlider() {
     var settings = {
         dots: false,
@@ -50,8 +51,8 @@ export default function SimpleSlider() {
         ]
     };
     return (
-        <div className="container py-5 " data-aos="fade-down">
-            <Slider {...settings} className="d-flex align-items-center">
+           <Container className="py-5"  data-aos="fade-down">
+           <Slider {...settings} className="d-flex align-items-center">
                 <div className="c_pointer  ">
                     <img className="imgHover_1 " src={Axon} alt="Axon" />
                 </div>
@@ -83,6 +84,6 @@ export default function SimpleSlider() {
                     <img className="imgHover_1 " src={Alitali} alt="Alitali" />
                 </div>
             </Slider>
-        </div>
+           </Container>
     );
 }

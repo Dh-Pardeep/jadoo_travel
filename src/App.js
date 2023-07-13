@@ -16,6 +16,9 @@ import FooterSection from './components/FooterSection';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import AOS from "aos";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 function App() {
   useEffect(() => {
     AOS.init({

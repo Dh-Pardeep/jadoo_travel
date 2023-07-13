@@ -1,41 +1,42 @@
 import React from 'react'
 import PlayStore from '../assets/img/svg/GooglePlay.svg'
 import AppleStore from '../assets/img/svg/appleStore.svg'
+import { Col, Container, Row } from 'react-bootstrap'
 const FooterSection = () => {
     return (
         <>
             <section>
-                <div className="container">
-                    <div className="row my-5 py-3">
-                        <div className="col-12 col-lg-4  col-xl-3" data-aos="fade-right">
-                            <h2 className='color_E4B ff_poppins fs_44 fst-normal fw-medium pb-1 pt-4'>Jadoo.</h2>
+                <Container className='py-5'>
+                    <Row className='my-5 pb-3 pt-5' >
+                        <Col xs={12} lg={4} xl={3} data-aos="fade-right">
+                            <h2 className='color_E4B ff_poppins fs_44 fst-normal fw-medium pb-1 c_pointer'>Jadoo.</h2>
                             <p className='para_9 fs_13 color_282 ff_poppins fst-normal pt-2'>Book your trip in minute, get full Control for much longer.</p>
-                        </div>
-                        <div className="col-6 col-sm-4 col-xl-2  col-lg-2 mt-4" data-aos="zoom-in">
+                        </Col>
+                        <Col xs={6} sm={4} lg={2} data-aos="zoom-in">
                             <ul className='ps-0'>
                                 <li className='ff_poppins fs_21 fst-normal fw-bold color_black mb-4'>Company</li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block down_line position-relative' href="Company">About</a></li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block a_padding down_line position-relative' href="Careers">Careers</a></li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block down_line position-relative' href="Mobile">Mobile</a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover down_line position-relative' href="Company">About</a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover a_padding down_line position-relative' href="Careers">Careers</a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover down_line position-relative' href="Mobile">Mobile</a></li>
                             </ul>
-                        </div>
-                        <div className="col-6 col-sm-4 col-xl-2 col-lg-3 ps-lg-5 ms-lg-4 ps-xl-0 ms-xl-0 mt-4" data-aos="zoom-in">
+                        </Col>
+                        <Col xs={6} sm={4} lg={3} xl={2} className='ps-lg-5 ms-lg-4 ps-xl-0 ms-xl-0'>
                             <ul className='ps-0'>
                                 <li className='ff_poppins fs_21 fst-normal fw-bold color_black mb-4'>Mobile</li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block down_line position-relative' href="Company">Help/FAQ </a></li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block down_line position-relative a_padding' href="Careers">Press</a></li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block down_line position-relative' href="Mobile">Affilates</a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover down_line position-relative' href="Company">Help/FAQ </a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover down_line position-relative a_padding' href="Careers">Press</a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover down_line position-relative' href="Mobile">Affilates</a></li>
                             </ul>
-                        </div>
-                        <div className="col-6 col-sm-4 col-xl-2  col-lg-2 mt-4" data-aos="zoom-in">
+                        </Col>
+                        <Col sm={4}  lg={2} xl={2} className='' data-aos="zoom-in">
                             <ul className='ps-0'>
                                 <li className='ff_poppins fs_21 fst-normal fw-bold color_black mb-4'>More</li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block down_line position-relative' href="Company">Airlinefees</a></li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block down_line position-relative a_padding' href="Careers">Airline</a></li>
-                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block down_line position-relative' href="Mobile">Low fare tips</a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover down_line position-relative' href="Company">Airlinefees</a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover down_line position-relative a_padding' href="Careers">Airline</a></li>
+                                <li><a className='ff_poppins_fs_18 fst-normal fw-medium color_282 d-inline-block color_hover down_line position-relative' href="Mobile">Low fare tips</a></li>
                             </ul>
-                        </div>
-                        <div className="col-12 mt-4 col-xl-3" data-aos="fade-left">
+                        </Col>
+                        <Col xl={3} className='mt-4' data-aos="fade-left">
                             <a className='d-inline-block svg_filter_hover' href=""><svg className='footer_soicalApp' width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.53708 2.24446C5.21702 2.14321 4.84895 2.0757 4.51288 2.0757C4.0968 2.0757 3.20062 2.36259 3.20062 2.91948V4.25266H5.32904V6.49712H3.20062V12.6905H1.05621V6.49712H0V4.25266H1.05621V3.12199C1.05621 1.41755 1.79235 0 3.5687 0C4.17681 0 5.26503 0.0337513 5.85714 0.253134L5.53708 2.24446Z" fill="#080809" />
                             </svg></a>
@@ -50,19 +51,19 @@ const FooterSection = () => {
                             </a>
                             <p className=' fs_20 color_282 ff_poppins fst-medium pt-4'>Discover our app</p>
                             <div>
-                             <a className='PlatStore' href="#">
-                                <img src={PlayStore} alt="" />
-                             </a>
-                             <a className='AppleStore ms-2' href="#">
-                                <img src={AppleStore} alt="" />
-                             </a>
+                                <a className='PlatStore' href="#">
+                                    <img src={PlayStore} alt="" />
+                                </a>
+                                <a className='AppleStore ms-2' href="#">
+                                    <img src={AppleStore} alt="" />
+                                </a>
 
-                             <a className='BackToTop' href="BackToTop"></a>
+                                <a className='BackToTop' href="BackToTop"></a>
                             </div>
-                        </div>
-                    </div>
+                        </Col>
+                    </Row>
                     <p className='fs_14 color_282 ff_poppins fst-normal pt-2 text-center'>All rights reserved@jadoo.co</p>
-                </div>
+                </Container>
             </section>
         </>
     )
