@@ -9,7 +9,7 @@ const CaseTop = () => {
       <section>
         <Container>
           <Navbar expand="lg">
-            <Container className='py-3 px-0 py-md-4' >
+            <Container className='py-3 px-0 py-md-4 ' >
               <Navbar.Brand href="#home"><img className='z-3 c_pointer' src={logo} alt="Jadoo" /></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
